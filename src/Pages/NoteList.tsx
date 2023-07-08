@@ -118,7 +118,7 @@ function NoteCard ({id , title , tags}: SimplifiedNote)
                 {tags.length>0 && tags.map(tag=><p className=" m-auto p-2 max-w-10 mt-4 bg-blue-500 text-white text-xs ">{tag.label}</p>)}
                 </div>
                 </div>
-                <p className="text-xs text-red-300">Click to Edit/Delete</p>
+                <p className="text-xs text-red-300">Click to Open/Edit/Delete</p>
                 </div>
                 
         </Link>
