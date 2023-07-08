@@ -111,7 +111,7 @@ function NoteCard ({id , title , tags}: SimplifiedNote)
     
     return(
         <Link to={`/${id}`}>
-            <div className=" text-center flex flex-col gap-4 justify-between border-gray border-2 h-52 w-52 p-4 hover:shadow-xl hover:bg-red-100 ">
+            <div className=" text-center flex flex-col gap-4 justify-between border-black border-2 h-52 w-52 p-4 hover:shadow-xl hover:bg-red-100 ">
                 <div>
                <span className="font-bold text-lg"> {title}</span>
                <div className="flex flex-wrap relative max-h-40 gap-2  ">
