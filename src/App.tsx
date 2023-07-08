@@ -110,7 +110,7 @@ function deleteTag(id: string)
 
 
   return (
-    <div className="my-4">
+    <div className="my-4 ">
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<LoadingPage/>}/>
